@@ -74,11 +74,15 @@ body {
   text-align: center;
   padding: 0.2vh;
   font-size: 5vh;
+  color: rgb(234, 234, 234);
 }
 
 .changeButton {
   font-size: 2vh;
   min-height: 8vh;
+}
+.convertButton {
+  font-size: 2vh;
 }
 
 .drawButton {
@@ -89,4 +93,16 @@ body {
 .resetButton {
   min-height: 6vh;
   min-width: 8vh;
+}
+
+.blueBlock > .resourceText {
+  background-color: rgb(52, 52, 207);
+}
+
+.redBlock > .resourceText {
+  background-color: rgb(207, 52, 42);
+}
+
+.purpleBlock > .resourceText {
+  background-color: rgb(207, 52, 207);
 }
