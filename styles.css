@@ -18,11 +18,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2vw;
 }
 
 .playerField {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   flex: 1;
 }
 
@@ -46,7 +48,7 @@ body {
 }
 
 .resourceElement {
-  min-width: 8vw;
+  min-width: 14vw;
 }
 
 .resourceBlock {
@@ -72,4 +74,5 @@ body {
 
 .drawButton {
   flex: 0.1;
+  min-height: 2vw;
 }
