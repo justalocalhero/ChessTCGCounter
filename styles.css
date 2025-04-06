@@ -1,0 +1,75 @@
+html {
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#field {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playerField {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.playerFieldContent {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1vw;
+}
+
+#playerTwoField {
+  rotate: 180deg;
+}
+
+.resourceContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.resourceElement {
+  min-width: 8vw;
+}
+
+.resourceBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.2vw;
+}
+
+.convertButton {
+  height: 100%;
+  width: 100%;
+}
+
+.resourceText {
+  text-align: center;
+  padding: 0.2vw;
+}
+
+.changeButton {
+  min-height: 2vw;
+}
+
+.drawButton {
+  flex: 0.1;
+}

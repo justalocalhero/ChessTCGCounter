@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <title>Counter</title>
+  <body>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <div id="field">
+      <div class="playerField" id="playerTwoField">
+        <template id="playerFieldTemplate">
+          <div class="playerFieldContent">
+            <div class="playerName">Player</div>
+            <div class="resourceContainer">
+              <div class="resourceElement">
+                <div class="resourceBlock blueBlock">
+                  <button class="changeButton add">+</button>
+                  <div class="resourceText">125</div>
+                  <button class="changeButton subtract">-</button>
+                </div>
+              </div>
+              <div class="resourceElement">
+                <button class="convertButton convertRed">-></button>
+              </div>
+              <div class="resourceElement">
+                <div class="resourceBlock redBlock">
+                  <button class="changeButton add">+</button>
+                  <div class="resourceText">5</div>
+                  <button class="changeButton subtract">-</button>
+                </div>
+              </div>
+              <div class="resourceElement">
+                <button class="convertButton convertPurple">-></button>
+              </div>
+              <div class="resourceElement">
+                <div class="resourceBlock purpleBlock">
+                  <button class="changeButton add">+</button>
+                  <div class="resourceText">5</div>
+                  <button class="changeButton subtract">-</button>
+                </div>
+              </div>
+            </div>
+            <button class="drawButton">draw</button>
+          </div>
+        </template>
+      </div>
+      <button class="resetButton">reset</button>
+      <div class="playerField" id="playerOneField"></div>
+    </div>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
