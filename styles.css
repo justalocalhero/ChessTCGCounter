@@ -4,6 +4,7 @@ html {
   -webkit-touch-callout: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  touch-action: none;
   margin: 0;
   height: 100%;
 }
