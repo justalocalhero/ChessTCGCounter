@@ -29,7 +29,7 @@ function buildPlayerContent(container, template, playerName) {
 
   container.name = clone.querySelector(".playerName");
   if (playerName == "player1")
-    container.name.innerHTML = "Jose Raul Cardpablanca";
+    container.name.innerHTML = "José Raúl Cardpablanca";
   if (playerName == "player2") container.name.innerHTML = "Anatoly Cardpov";
 
   container.blueBlock = buildBlock(clone, ".blueBlock", playerName, "blue");
