@@ -28,6 +28,9 @@ function buildPlayerContent(container, template, playerName) {
   let clone = template.content.cloneNode(true);
 
   container.name = clone.querySelector(".playerName");
+  if (playerName == "player1")
+    container.name.innerHTML = "Jose Raul Cardpablanca";
+  if (playerName == "player2") container.name.innerHTML = "Anatoly Cardpov";
 
   container.blueBlock = buildBlock(clone, ".blueBlock", playerName, "blue");
   container.redBlock = buildBlock(clone, ".redBlock", playerName, "red");
